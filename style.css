@@ -1,0 +1,5 @@
+body { font-family: Arial; margin:0; padding:0; }
+.hero { background:#111; color:white; padding:3rem; text-align:center; }
+.section { padding:2rem; }
+.btn { background:#2563eb; color:white; padding:0.7rem 1.2rem; border-radius:8px; text-decoration:none; }
+.footer { text-align:center; padding:1rem; color:#555; }

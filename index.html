@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reginald Boyd | Front-End Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Reginald Boyd</h1>
+      <p class="tagline">Front-End Web Developer • UI-Focused</p>
+      <a href="#projects" class="btn">View My Projects</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="section">
+      <h2>Projects Coming Soon</h2>
+      <p>Your portfolio is now live—start adding your projects!</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Reginald Boyd</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
