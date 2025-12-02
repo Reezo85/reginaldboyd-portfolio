@@ -2,28 +2,222 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Reginald Boyd | Front-End Developer</title>
+  <title>Reginald Boyd | Front-End Web Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Reginald Boyd, a Front-End Web Developer focused on JavaScript, React, and clean UI experiences." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>Reginald Boyd</h1>
-      <p class="tagline">Front-End Web Developer • UI-Focused</p>
-      <a href="#projects" class="btn">View My Projects</a>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">RB</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
   <main>
-    <section id="projects" class="section">
-      <h2>Projects Coming Soon</h2>
-      <p>Your portfolio is now live—start adding your projects!</p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-kicker">Front-End Web Developer</p>
+          <h1>Reginald Boyd</h1>
+          <p class="hero-sub">
+            I build clean, responsive, JavaScript-powered web experiences and I’m ready to bring
+            that energy from the floor at Sam’s Club to a professional engineering team.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="Reginald_Boyd_Resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">
+              Download Resume
+            </a>
+          </div>
+          <p class="hero-meta">
+            Fort Worth, TX • Open to Remote & Hybrid Roles • JavaScript • React (JR) • UI-Focused
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container section-inner two-col">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I’m an entry-level Front-End Developer with a strong focus on HTML, CSS, and JavaScript.
+            I’m currently completing the Springboard Software Engineering Career Track while working
+            full-time at Sam’s Club, where I’ve sharpened my problem-solving, communication, and
+            attention to detail under pressure.
+          </p>
+          <p>
+            My favorite work is turning ideas into real, interactive browser experiences—whether that’s
+            building a meme generator, designing small web tools, or practicing algorithms like the
+            Caesar Cipher. I’m hungry to learn, dependable, and ready to grow with a team that ships.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Quick Snapshot</h3>
+          <ul>
+            <li>Based in Fort Worth, TX</li>
+            <li>Front-End & UI focused</li>
+            <li>Hands-on JavaScript & DOM projects</li>
+            <li>Comfortable with Git & GitHub</li>
+            <li>Actively seeking Junior Front-End / Web Developer roles</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container section-inner">
+        <h2>Skills</h2>
+        <p class="section-lead">
+          The core tools and technologies I use to build web experiences.
+        </p>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, modern layout (Flexbox, Grid), responsive design.</p>
+          </div>
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>ES6+, DOM manipulation, events, loops, arrays, objects, basic algorithms.</p>
+          </div>
+          <div class="skill-card">
+            <h3>React (Foundations)</h3>
+            <p>Components, props, basic state, and using React to structure UI.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Workflow</h3>
+            <p>Git & GitHub, Netlify deployment, working from requirements and iterating.</p>
+          </div>
+          <div class="skill-card">
+            <h3>UX & UI</h3>
+            <p>Clean layouts, readable typography, mobile-first mindset.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Soft Skills</h3>
+            <p>Customer-focused communication, reliability, problem-solving, teamwork.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container section-inner">
+        <h2>Projects</h2>
+        <p class="section-lead">
+          A few examples of the JavaScript and UI work I’ve been doing recently.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Meme Generator -->
+          <article class="project-card">
+            <h3>Meme Generator Web App</h3>
+            <p>
+              A browser-based meme generator that lets users add text and create multiple meme cards
+              dynamically without page reloads.
+            </p>
+            <ul class="project-points">
+              <li>Built with HTML, CSS, and vanilla JavaScript.</li>
+              <li>Uses event listeners and DOM manipulation to add/remove memes.</li>
+              <li>Responsive layout designed for desktop and mobile.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/reezo85/PROJECT_MEME_GENERATOR" target="_blank" rel="noopener">GitHub</a>
+              <!-- <a href="#" target="_blank" rel="noopener">Live Demo</a> -->
+            </div>
+          </article>
+
+          <!-- Caesar Cipher -->
+          <article class="project-card">
+            <h3>Caesar Cipher Encryption Suite</h3>
+            <p>
+              A collection of JavaScript functions that encrypt and decrypt text using the Caesar Cipher,
+              built through a series of exercises and a final project.
+            </p>
+            <ul class="project-points">
+              <li>Implements encrypt/decrypt using loops and modular arithmetic.</li>
+              <li>Focus on clear naming, comments, and readable logic.</li>
+              <li>Demonstrates problem-solving and core algorithm understanding.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/reezo85/PROJECT_CAESAR_CIPHER" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <!-- DOM Events -->
+          <article class="project-card">
+            <h3>DOM Events Playground</h3>
+            <p>
+              An interactive page showcasing click, keyboard, and mouse events to create dynamic behavior
+              in the browser.
+            </p>
+            <ul class="project-points">
+              <li>Uses event listeners to respond to user input in real time.</li>
+              <li>Updates the DOM dynamically based on user actions.</li>
+              <li>Demonstrates understanding of vanilla JS interactivity.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/reezo85/PROJECT_DOM_EVENTS" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <!-- Async / Debugging / Future -->
+          <article class="project-card">
+            <h3>Asynchronous JS & Debugging Practice</h3>
+            <p>
+              A set of exercises using <code>setTimeout</code>, <code>setInterval</code>, and debugging tools
+              to better understand asynchronous JavaScript and tracking down bugs.
+            </p>
+            <ul class="project-points">
+              <li>Built small timed interactions and intervals in the browser.</li>
+              <li>Used console logging and DevTools to troubleshoot issues.</li>
+              <li>Shows growth mindset and comfort with experimenting in code.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/reezo85/PROJECT_ASYNC_DEBUG" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container section-inner contact-inner">
+        <div>
+          <h2>Contact</h2>
+          <p class="section-lead">
+            I’m actively looking for Junior Front-End or Web/UI Developer roles (remote or hybrid).
+          </p>
+          <p>
+            If you think I’d be a good fit for your team, I’d love to talk. The best way to reach me is
+            by email, but you can also review my GitHub projects below.
+          </p>
+        </div>
+        <div class="contact-card">
+          <p><strong>Email:</strong> <a href="mailto:reggiedboyd@icloud.com">reggiedboyd@icloud.com</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/reezo85" target="_blank" rel="noopener">github.com/reezo85</a></p>
+          <!-- When you have LinkedIn ready, add it here -->
+          <!-- <p><strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener">linkedin.com/in/...</a></p> -->
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Reginald Boyd</p>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Reginald Boyd • Built with HTML, CSS, and JavaScript • Deployed on Netlify</p>
+    </div>
   </footer>
 
   <script>
