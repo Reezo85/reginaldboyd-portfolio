@@ -369,65 +369,33 @@ body {
   height: 100%;
 }
 
-/* ⭐ YOUR NEW UPDATE — CLEAN VERSION */
+/* Smooth hover animation */
 .project-card {
-  background: #0e1525;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Title styling */
 .project-card h3 {
   font-size: 1.2rem;
   margin-bottom: 0.75rem;
+  color: #e9f3ff;
+  text-shadow: 0 1px 6px rgba(140, 180, 255, 0.45);
 }
 
-/* ⭐ YOUR NEW UPDATE — TITLE COLOR */
-.project-card h3 {
-  color: #8fc7ff;
-  text-shadow: 0 0 8px rgba(143, 199, 255, 0.5);
-}
-
+/* Paragraph styling */
 .project-card p {
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
 
-/* tags (little tech chips) */
-.project-tags {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin: 0 0 1.2rem;
-  padding: 0;
+/* Extra spacing under last card */
+.project-card:last-child {
+  margin-bottom: 2rem;
 }
-
-.project-tags li {
-  font-size: 0.78rem;
-  padding: 0.25rem 0.6rem;
-  border-radius: 999px;
-  background: rgba(151, 197, 255, 0.08);
-  border: 1px solid rgba(151, 197, 255, 0.25);
-}
-
-/* links (buttons) */
-.project-links {
-  display: flex;
-  gap: 0.75rem;
-}
-
-.project-links a {
-  flex: 0 0 auto;
-  font-size: 0.85rem;
-  text-decoration: none;
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  color: #f5f7ff;
-  transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.project-links a:hover {
-  background: rgba(78, 166, 255, 0.18);
-  transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
 }
