@@ -355,11 +355,17 @@ body {
   margin-top: 6rem;
 }
 
+/* Add clean space above the Projects title */
+#projects {
+  margin-top: 4rem;
+}
+
 /* Grid layout */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
+}
 }
 }
 
