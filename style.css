@@ -350,11 +350,17 @@ body {
   color: #666;
 }
 
+/* Add space above Projects section */
+.projects-section {
+  margin-top: 6rem;
+}
+
 /* Grid layout */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
+}
 }
 
 /* Project Card Base */
