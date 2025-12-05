@@ -408,3 +408,61 @@ body {
   line-height: 1.6;
   margin-bottom: 1rem;
 }
+/* -------------------------
+   FOOTER PROFESSIONAL UPGRADE
+-------------------------- */
+
+.site-footer {
+  padding: 3rem 1rem;
+  text-align: center;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.footer-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #c7d7ff;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-icon {
+  color: #8fc7ff;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.footer-icon:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(150, 200, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 1.2s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
