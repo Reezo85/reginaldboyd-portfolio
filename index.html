@@ -190,4 +190,38 @@
     </article>
   </div>
 </section>
-   
+<footer class="site-footer">
+  <div class="footer-inner fade-in">
+
+    <p class="footer-name">Reginald Boyd • Front-End Web Developer</p>
+
+    <div class="footer-links">
+      <a href="mailto:reegiedevboyd@icloud.com" class="footer-icon">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+
+      <a href="https://github.com/reezo85" target="_blank" rel="noopener noreferrer" class="footer-icon">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/reginald-boyd/" target="_blank" rel="noopener noreferrer" class="footer-icon">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+
+      <a href="assets/Reginald_Boyd_Frontend_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer" class="footer-icon">
+        <i class="fas fa-file-alt"></i> Resume (PDF)
+      </a>
+    </div>
+
+    <p class="footer-copy">
+      © <span id="footerYear"></span> Reginald Boyd. Built with HTML, CSS & JavaScript.
+    </p>
+
+  </div>
+</footer>
+
+<script>
+  document.getElementById("footerYear").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
